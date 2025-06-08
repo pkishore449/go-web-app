@@ -82,8 +82,8 @@ jobs:
     
     - name: commit and push changes
       run: |
-        git config --global user.email "admin@hmail.com"
-        git config --global user.name "admin"
+        git config --global user.email "pondu449@gmail.com"
+        git config --global user.name "Kishore"
         git add helm/go-web-app-chart/values.yaml
         git commit -m "updated image tag"
         git push
